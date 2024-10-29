@@ -40,7 +40,7 @@ if [ -f conf/assignment.txt ]; then
         else
             echo "Test of assignment ${assignment} failed with rc=${rc}"
             exit $rc
-        fi
+        fi 
     else
         echo "No assignment-test script found for ${assignment}"
         exit 1
