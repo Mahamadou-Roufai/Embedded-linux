@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+81740193bcc239d56998489a0277b3ab /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_hello_Runner.c
