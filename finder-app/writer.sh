@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -e
-set -u
 
 writefile=$1
 writestr=$2

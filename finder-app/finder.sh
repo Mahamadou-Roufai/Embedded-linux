@@ -3,7 +3,7 @@
 set -e
 set -u
 
-filesdir=".."
+filesdir="."
 searchstr="linux"
 
 if [ $# -lt 2 ] 

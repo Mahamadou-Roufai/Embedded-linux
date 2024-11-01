@@ -7,7 +7,7 @@ set -u
 
 NUMFILES=10
 WRITESTR=Roufai
-WRITEDIR=folder
+WRITEDIR=folder1
 username=$(cat conf/username.txt)
 
 if [ $# -lt 3 ]
