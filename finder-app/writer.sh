@@ -17,6 +17,7 @@ fi
 
 if echo "$writestr" | cat > "$writefile"; then 
 	echo "File created successful "
+	exit 0
 else
 	echo "Error while creating file"
 	exit 1
