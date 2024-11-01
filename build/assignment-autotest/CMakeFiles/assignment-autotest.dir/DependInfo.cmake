@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/roufai/Roufai/Autoformation/Linux/Devoir/examples/autotest-validate/autotest-validate.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o.d"
+  "/home/roufai/Roufai/Autoformation/Linux/Devoir/student-test/assignment1/Test_validate_username.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o.d"
+  "/home/roufai/Roufai/Autoformation/Linux/Devoir/student-test/assignment1/Test_validate_username_Runner.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o.d"
   "/home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_assignment_validate.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o.d"
   "/home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o.d"
   "/home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_hello.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o.d"
@@ -20,6 +22,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c" "/home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_hello_Runner.c"
   "/home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/unity_runner.c" "/home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_hello_Runner.c"
+  "/home/roufai/Roufai/Autoformation/Linux/Devoir/student-test/assignment1/Test_validate_username_Runner.c" "/home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_hello_Runner.c"
   )
 
 

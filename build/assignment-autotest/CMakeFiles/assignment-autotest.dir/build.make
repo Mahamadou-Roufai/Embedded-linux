@@ -71,11 +71,15 @@ include assignment-autotest/CMakeFiles/assignment-autotest.dir/flags.make
 
 /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_hello_Runner.c: /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_hello.c
 /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_hello_Runner.c: /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_assignment_validate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/roufai/Roufai/Autoformation/Linux/Devoir/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_hello_Runner.c, /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/unity_runner.c"
-	cd /home/roufai/Roufai/Autoformation/Linux/Devoir/build/assignment-autotest && /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/auto_generate.sh test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c
+/home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_hello_Runner.c: /home/roufai/Roufai/Autoformation/Linux/Devoir/student-test/assignment1/Test_validate_username.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/roufai/Roufai/Autoformation/Linux/Devoir/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_hello_Runner.c, /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, /home/roufai/Roufai/Autoformation/Linux/Devoir/student-test/assignment1/Test_validate_username_Runner.c, /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/unity_runner.c"
+	cd /home/roufai/Roufai/Autoformation/Linux/Devoir/build/assignment-autotest && /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/auto_generate.sh test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
 
 /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c: /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_hello_Runner.c
 	@$(CMAKE_COMMAND) -E touch_nocreate /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c
+
+/home/roufai/Roufai/Autoformation/Linux/Devoir/student-test/assignment1/Test_validate_username_Runner.c: /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_hello_Runner.c
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/roufai/Roufai/Autoformation/Linux/Devoir/student-test/assignment1/Test_validate_username_Runner.c
 
 /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/unity_runner.c: /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_hello_Runner.c
 	@$(CMAKE_COMMAND) -E touch_nocreate /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/unity_runner.c
@@ -108,10 +112,24 @@ assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_ass
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.s"
 	cd /home/roufai/Roufai/Autoformation/Linux/Devoir/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_assignment_validate.c -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.s
 
+assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/flags.make
+assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o: /home/roufai/Roufai/Autoformation/Linux/Devoir/student-test/assignment1/Test_validate_username.c
+assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roufai/Roufai/Autoformation/Linux/Devoir/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o"
+	cd /home/roufai/Roufai/Autoformation/Linux/Devoir/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o -MF CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o.d -o CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o -c /home/roufai/Roufai/Autoformation/Linux/Devoir/student-test/assignment1/Test_validate_username.c
+
+assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.i"
+	cd /home/roufai/Roufai/Autoformation/Linux/Devoir/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roufai/Roufai/Autoformation/Linux/Devoir/student-test/assignment1/Test_validate_username.c > CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.i
+
+assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.s"
+	cd /home/roufai/Roufai/Autoformation/Linux/Devoir/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roufai/Roufai/Autoformation/Linux/Devoir/student-test/assignment1/Test_validate_username.c -o CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.s
+
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/flags.make
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o: /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_hello_Runner.c
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roufai/Roufai/Autoformation/Linux/Devoir/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roufai/Roufai/Autoformation/Linux/Devoir/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o"
 	cd /home/roufai/Roufai/Autoformation/Linux/Devoir/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o -MF CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o.d -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o -c /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_hello_Runner.c
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.i: cmake_force
@@ -125,7 +143,7 @@ assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hel
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/flags.make
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o: /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roufai/Roufai/Autoformation/Linux/Devoir/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roufai/Roufai/Autoformation/Linux/Devoir/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o"
 	cd /home/roufai/Roufai/Autoformation/Linux/Devoir/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o -MF CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o.d -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o -c /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.i: cmake_force
@@ -136,10 +154,24 @@ assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_ass
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.s"
 	cd /home/roufai/Roufai/Autoformation/Linux/Devoir/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.s
 
+assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/flags.make
+assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o: /home/roufai/Roufai/Autoformation/Linux/Devoir/student-test/assignment1/Test_validate_username_Runner.c
+assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roufai/Roufai/Autoformation/Linux/Devoir/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o"
+	cd /home/roufai/Roufai/Autoformation/Linux/Devoir/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o -MF CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o.d -o CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o -c /home/roufai/Roufai/Autoformation/Linux/Devoir/student-test/assignment1/Test_validate_username_Runner.c
+
+assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.i"
+	cd /home/roufai/Roufai/Autoformation/Linux/Devoir/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roufai/Roufai/Autoformation/Linux/Devoir/student-test/assignment1/Test_validate_username_Runner.c > CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.i
+
+assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.s"
+	cd /home/roufai/Roufai/Autoformation/Linux/Devoir/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roufai/Roufai/Autoformation/Linux/Devoir/student-test/assignment1/Test_validate_username_Runner.c -o CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.s
+
 assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/flags.make
 assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o: /home/roufai/Roufai/Autoformation/Linux/Devoir/examples/autotest-validate/autotest-validate.c
 assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roufai/Roufai/Autoformation/Linux/Devoir/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roufai/Roufai/Autoformation/Linux/Devoir/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o"
 	cd /home/roufai/Roufai/Autoformation/Linux/Devoir/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o -MF CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o.d -o CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o -c /home/roufai/Roufai/Autoformation/Linux/Devoir/examples/autotest-validate/autotest-validate.c
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.i: cmake_force
@@ -153,7 +185,7 @@ assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-vali
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/flags.make
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o: /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/unity_runner.c
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roufai/Roufai/Autoformation/Linux/Devoir/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roufai/Roufai/Autoformation/Linux/Devoir/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o"
 	cd /home/roufai/Roufai/Autoformation/Linux/Devoir/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o -MF CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o.d -o CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o -c /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/unity_runner.c
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.i: cmake_force
@@ -168,8 +200,10 @@ assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.s: cm
 assignment__autotest_OBJECTS = \
 "CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o" \
 "CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o" \
+"CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o" \
 "CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o" \
 "CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o" \
+"CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o" \
 "CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o" \
 "CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o"
 
@@ -178,14 +212,16 @@ assignment__autotest_EXTERNAL_OBJECTS =
 
 assignment-autotest/assignment-autotest: assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
 assignment-autotest/assignment-autotest: assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+assignment-autotest/assignment-autotest: assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
 assignment-autotest/assignment-autotest: assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
 assignment-autotest/assignment-autotest: assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+assignment-autotest/assignment-autotest: assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
 assignment-autotest/assignment-autotest: assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
 assignment-autotest/assignment-autotest: assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
 assignment-autotest/assignment-autotest: assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make
 assignment-autotest/assignment-autotest: assignment-autotest/Unity/src/libunity.a
 assignment-autotest/assignment-autotest: assignment-autotest/CMakeFiles/assignment-autotest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/roufai/Roufai/Autoformation/Linux/Devoir/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable assignment-autotest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/roufai/Roufai/Autoformation/Linux/Devoir/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable assignment-autotest"
 	cd /home/roufai/Roufai/Autoformation/Linux/Devoir/build/assignment-autotest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/assignment-autotest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -199,6 +235,7 @@ assignment-autotest/CMakeFiles/assignment-autotest.dir/clean:
 assignment-autotest/CMakeFiles/assignment-autotest.dir/depend: /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c
 assignment-autotest/CMakeFiles/assignment-autotest.dir/depend: /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/assignment1/Test_hello_Runner.c
 assignment-autotest/CMakeFiles/assignment-autotest.dir/depend: /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest/test/unity_runner.c
+assignment-autotest/CMakeFiles/assignment-autotest.dir/depend: /home/roufai/Roufai/Autoformation/Linux/Devoir/student-test/assignment1/Test_validate_username_Runner.c
 	cd /home/roufai/Roufai/Autoformation/Linux/Devoir/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/roufai/Roufai/Autoformation/Linux/Devoir /home/roufai/Roufai/Autoformation/Linux/Devoir/assignment-autotest /home/roufai/Roufai/Autoformation/Linux/Devoir/build /home/roufai/Roufai/Autoformation/Linux/Devoir/build/assignment-autotest /home/roufai/Roufai/Autoformation/Linux/Devoir/build/assignment-autotest/CMakeFiles/assignment-autotest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : assignment-autotest/CMakeFiles/assignment-autotest.dir/depend
 
